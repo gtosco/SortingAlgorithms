@@ -4,7 +4,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class mergeSorting {
+public final class MergeSorting {
+
+    private MergeSorting() {
+    }
 
     public static int[] mergeSort(int[] a, int left, int right) {
 

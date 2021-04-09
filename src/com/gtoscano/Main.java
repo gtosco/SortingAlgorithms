@@ -1,6 +1,6 @@
 package com.gtoscano;
 
-import com.gtoscano.sortingalgorithms.mergeSorting;
+import com.gtoscano.sortingalgorithms.MergeSorting;
 
 import java.util.Scanner;
 
@@ -14,6 +14,6 @@ public class Main {
             a[i] = scanner.nextInt();
         }
 
-        System.out.println(mergeSorting.mergeSort(a, 0, a.length));
+        System.out.println(MergeSorting.mergeSort(a, 0, a.length));
     }
 }
