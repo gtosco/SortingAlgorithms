@@ -9,6 +9,12 @@ public final class QuickSorting {
 
     private static final Random random = new Random();
 
+    private static void swap(int[] a, int i, int j){
+        int temp = a[i];
+        a[i] = a[j];
+        a[j] = temp;
+    }
+
     private static int[] partition3(int[] a, int l, int r) {
         //write your code here
 
@@ -30,9 +36,7 @@ public final class QuickSorting {
                 a[j] = t;
             }
         }
-        int t = a[l];
-        a[l] = a[j];
-        a[j] = t;
+        swap(a, l, j);
         return j;
     }
 
