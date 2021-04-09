@@ -15,7 +15,7 @@ public final class QuickSorting {
         a[j] = temp;
     }
 
-    private static int[] partition3(int[] a, int l, int r) {
+    /*private static int[] partition3(int[] a, int l, int r) {
         //write your code here
 
 
@@ -23,20 +23,20 @@ public final class QuickSorting {
         int m2 = r;
         int[] m = {m1, m2};
         return m;
-    }
+    }*/
 
     private static int partition2(int[] a, int l, int r) {
-        int x = a[l];
+        int p = a[l];
         int j = l;
-        for (int i = l + 1; i <= r; i++) {
-            if (a[i] <= x) {
-                j++;
-                int t = a[i];
-                a[i] = a[j];
-                a[j] = t;
+
+        for (int i = l + 1; i <= r; i++){
+            if (a[i] <= p) {
+                swap(a, i, j);
+                j++;  // This index keeps track of the point where to insert the pivot value
             }
         }
-        swap(a, l, j);
+        swap(a, l, j); // This puts the pivot in position j
+
         return j;
     }
 
@@ -48,7 +48,7 @@ public final class QuickSorting {
         int t = a[l];
         a[l] = a[k];
         a[k] = t;
-        //use partition3
+
         int m = partition2(a, l, r);
         randomizedQuickSort(a, l, m - 1);
         randomizedQuickSort(a, m + 1, r);
