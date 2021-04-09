@@ -2,8 +2,12 @@ package com.gtoscano.sortingalgorithms;
 
 import java.util.Random;
 
-public class quickSorting {
-    private static Random random = new Random();
+public final class QuickSorting {
+
+    private QuickSorting() {
+    }
+
+    private static final Random random = new Random();
 
     private static int[] partition3(int[] a, int l, int r) {
         //write your code here
