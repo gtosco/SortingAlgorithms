@@ -1,7 +1,11 @@
 
 d
-4src/com/gtoscano/sortingalgorithms/mergeSorting.java,1/0/1087e91fa6fc7399f4e95cf9921156c0a0769263
-i
-9test/com/gtoscano/sortingalgorithms/mergeSortingTest.java,a/d/ad6070d57c90d31f2f51a51120023da36d48e737
+4src/com/gtoscano/sortingalgorithms/MergeSorting.java,7/7/7775ee8f949925b5f95fea5acbd7527bbeff1364
 d
-4src/com/gtoscano/sortingalgorithms/quickSorting.java,6/3/63d2d731a44d12aaa92ddc7ade281996dd635070
+4src/com/gtoscano/sortingalgorithms/QuickSorting.java,5/d/5db27e7d0345358db5d97af84c1ca3be21ee6447
+i
+9test/com/gtoscano/sortingalgorithms/QuickSortingTest.java,3/9/391c23d4deaed46836d87774d29da7ab466b5d59
+i
+9test/com/gtoscano/sortingalgorithms/MergeSortingTest.java,8/b/8b2a50a533640daabe0ed0402aeb7e401f49f3fa
+J
+src/com/gtoscano/Main.java,e/e/eedb8a3fd47fb3ec8bf6710669e1804a01400286
